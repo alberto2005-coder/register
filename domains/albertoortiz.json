@@ -3,67 +3,21 @@
     "username": "alberto2005-coder",
     "email": "albertortixsanchez@gmail.com"
   },
-  "domain": "albertoortiz.is-a.dev",
-  "nameservers": [
-    "indie.ns.cloudflare.com",
-    "nico.ns.cloudflare.com"
-  ],
   "records": {
     "A": [
-      {
-        "type": "A",
-        "name": "albertoortiz.is-a.dev",
-        "content": "185.199.108.153",
-        "proxied": true
-      },
-      {
-        "type": "A",
-        "name": "albertoortiz.is-a.dev",
-        "content": "185.199.109.153",
-        "proxied": true
-      },
-      {
-        "type": "A",
-        "name": "albertoortiz.is-a.dev",
-        "content": "185.199.110.153",
-        "proxied": true
-      },
-      {
-        "type": "A",
-        "name": "albertoortiz.is-a.dev",
-        "content": "185.199.111.153",
-        "proxied": true
-      }
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
     ],
     "MX": [
-      {
-        "type": "MX",
-        "name": "albertoortiz.is-a.dev",
-        "content": "mx1.improvmx.com",
-        "priority": 10,
-        "proxied": false
-      },
-      {
-        "type": "MX",
-        "name": "albertoortiz.is-a.dev",
-        "content": "mx2.improvmx.com",
-        "priority": 11,
-        "proxied": false
-      }
+      "mx1.improvmx.com",
+      "mx2.improvmx.com"
     ],
     "TXT": [
-      {
-        "type": "TXT",
-        "name": "albertoortiz.is-a.dev",
-        "content": "v=spf1 include:spf.improvmx.com ~all",
-        "proxied": false
-      },
-      {
-        "type": "TXT",
-        "name": "albertoortiz.is-a.dev",
-        "content": "v=DMARC1; p=none; rua=mailto:contacto@albertoortiz.is-a.dev",
-        "proxied": false
-      }
+      "v=spf1 include:spf.improvmx.com ~all",
+      "v=DMARC1; p=none; rua=mailto:contacto@albertoortiz.is-a.dev"
     ]
-  }
+  },
+  "cloudflare_proxied": false
 }
